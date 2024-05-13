@@ -24,33 +24,86 @@
     height: 80px;
     width: 100%;
     z-index: 1;
+    align-items: center;
 }
 .runo {
     display: flex;
-    width: 60%;
+    width: 65%;
     align-items: center;
     height: 80px;
-    border: 1px solid red;
     color: white;
 }
 .menus {
-    border: 1px solid red;
     display: flex;
     width: 20%;
     align-items: center;
-    height: 80px;
+    height: 20px;
+    border-right: 0.5px solid rgb(229, 229, 229);
+    justify-content: center;
 }
 .social-icons {
-    border: 1px solid red;
     display: flex;
     width: 15%;
     align-items: center;
-    height: 80px;
+    justify-content: space-around;
+    height: 20px;
+    border-right: 0.5px solid rgb(229, 229, 229);
 }
 .search-icon {
-    border: 1px solid red;
     display: flex;
     width: 5%;
     align-items: center;
     height: 80px;
+
+}
+.runo-text {
+    padding-left: 70px;
+    color: rgb(248, 249, 250);
+    font-size: 20px;
+}
+.menu-button {
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+.social-facebook-button {
+    height: 20px;
+    width: 20px;
+    background-image: url(images/facebook.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgba(255, 255, 255   , 0);
+}
+.social-twitter-button {
+    height: 20px;
+    width: 20px;
+    background-image: url(images/twitter.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgba(255, 255, 255   , 0);
+}
+.social-youtube-button {
+    height: 20px;
+    width: 20px;
+    background-image: url(images/youtube.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgba(255, 255, 255   , 0);
+}
+.social-pinterest-button {
+    height: 20px;
+    width: 20px;
+    background-image: url(images/pinterest.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgba(255, 255, 255   , 0);
+}
+.social-behance-button {
+    height: 20px;
+    width: 20px;
+    background-image: url(images/behance.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgba(255, 255, 255   , 0);
 }
