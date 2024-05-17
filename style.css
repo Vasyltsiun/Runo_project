@@ -28,7 +28,7 @@
 
 
 
-.runo-header {
+/*.runo-header {
     display: flex;
     height: 80px;
     width: 100%;
@@ -40,7 +40,7 @@
     align-items: center;
     height: 80px;
     color: white;
-}
+}*/
 .menus {
     display: flex;
     width: 277px;
