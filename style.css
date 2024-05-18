@@ -9,18 +9,18 @@
     min-height: 100vh;
 }
 .container {
-    position: relative;
     width: 1440px;
     margin: 0 auto;
 }
 .logo {
-    position: fixed;
+    position: relative;
+    background-image: url(images/desktop_image.jpeg);
     width: 1440px;
+    background-repeat: no-repeat;
 }
 .row {
     display: flex;
-    height: 680px;
-    width: 1440px;
+    width: 100%;
     position: relative;
 }
 
@@ -140,18 +140,16 @@
 
 
 .blog-slider {
+    padding-left: 70px;
     display: inline-block;
     height: 680px;
-    padding-left: 70px;
-
 }
 .slider-block-button {
-    display: flex;
     align-items: end;
+    display: flex;
     height: 253px;
 }
 .adventure-button {
-    background-repeat: no-repeat;
     border: none;
     background-color: rgba(255, 255, 255   , 0.25);
     width: 77px;
@@ -170,6 +168,7 @@
     font-weight: 700;
     font-size: 36px;
     margin-top: 17px;
+    text-decoration: none;
 }
 .date-description {
     display: flex;
@@ -180,8 +179,10 @@
     font-size: 12px;
     line-height: 20px;
     margin-top: 20px;
+    text-decoration: none;
 }
 .date-line {
+    
     display: flex;
     align-items: center;
     justify-content: center;
