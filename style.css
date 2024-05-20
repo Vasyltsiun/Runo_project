@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: lora-variable;
+    src: url(fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lora;
+    src: url(fonts/Lora/Lora-Medium.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: spartan;
+    src: url(fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
 * {
     box-sizing: border-box;
 }
@@ -61,7 +76,7 @@
     height: 22px;
     color: rgb(255, 255, 255);
     margin-right: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: roboto;
     font-weight: 300;
     font-size: 12px;
     text-decoration: none;
@@ -85,7 +100,7 @@
     height: 80px;
 }
 .runo-text {
-    font-family: "Spartan", sans-serif;
+    font-family: spartan;
     padding-left: 70px;
     color: rgb(248, 249, 250);
     font-size: 20px;
@@ -143,6 +158,8 @@
 
 
 .blog-slider {
+    display: flex;
+    align-items: end;
     height: 600px;
     padding-left: 70px;
 }
@@ -159,13 +176,13 @@
     font-size: 10px;
     border-radius: 8px;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: roboto;
 }
 .description {
     position: absolute;
     width: 530px;
-    color: white;
-    font-family: "Lora", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 46px;
     font-weight: 700;
     font-size: 36px;
     bottom: 37%;
@@ -176,7 +193,7 @@
     align-items: end;
     width: 530px;
     color: rgb(229, 229, 229);
-    font-family: "Lora", sans-serif;
+    font-family: lora-variable;
     font-size: 12px;
     line-height: 20px;
     bottom: 27%;
