@@ -16,10 +16,12 @@
     position: relative;
     background-image: url(images/desktop_image.jpeg);
     width: 1440px;
+    height: 680px;
     background-repeat: no-repeat;
 }
 .row {
     display: flex;
+    justify-content: center;
     height: 680px;
     width: 100%;
     position: relative;
