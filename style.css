@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: lora;
-    src: url(fonts/Lora/Lora-Medium.ttf);
+    src: url(fonts/Lora/Lor);
 }
 @font-face {
     font-family: roboto;
@@ -157,6 +157,11 @@
 
 
 
+
+.slider-item {
+    position: absolute;
+    bottom: 20%;
+}
 .blog-slider {
     display: flex;
     align-items: end;
@@ -164,8 +169,7 @@
     padding-left: 70px;
 }
 .slider-block-button {
-    position: absolute;
-    bottom: 58%;
+    margin-bottom: 15px;
 }
 .adventure-button {
     background-repeat: no-repeat;
@@ -179,17 +183,15 @@
     font-family: roboto;
 }
 .description {
-    position: absolute;
     width: 530px;
     color: rgb(255, 255, 255);
     line-height: 46px;
     font-weight: 700;
     font-size: 36px;
-    bottom: 37%;
     font-family: lora;
+    margin-bottom: 25px;
 }
 .date-description {
-    position: absolute;
     display: flex;
     align-items: end;
     width: 530px;
@@ -197,7 +199,6 @@
     font-family: lora-variable;
     font-size: 12px;
     line-height: 20px;
-    bottom: 27%;
 }
 .date-line {
     background-image: url(images/line-date.png);
@@ -208,8 +209,6 @@
     margin-top: 9px;
 }
 .slider-b {
-    position: absolute;
     height: 35px;
-    bottom: 13%;
     width: 70px;
 }
