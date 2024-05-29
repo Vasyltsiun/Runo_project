@@ -354,25 +354,68 @@
 
 
 .big-post{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     background-image: url(images/image-big-post.png);
     width: 100%;
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
 }
-.slider-item-big-pos {
-    display: flex;
+.slider-item-big-post {
+    position: absolute;
+    top: 35%;
+    left: 32%;
     height: 245px;
     width: 530px;
 }
+.adventure-button {
+    width: 62px;
+    height: 22px;
+    display: block;
+    margin: 0 auto;
+}
 .big-post-title {
-    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 130px;
     width: 530px;
+    font-family: lora-variable;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    color: rgb(255, 255, 255);
 }
 .big-post-text {
-    height: 40px;
+    display: block;
+    margin: 0 auto;
+    height: 57px;
     width: 420px;
+    font-family: lora-variable;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(229, 229, 229);
+}
+.big-post-dash {
+    display: block;
+    margin: 0 auto;
+    background-image: url(images/line-date.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 20px;
+}
+.big-post-date {
+    display: block;
+    margin: 0 auto;
+    width: 59px;
+    height: 35px;
+    color: rgb(229, 229, 229);
+    font-family: lora-variable;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
 }
