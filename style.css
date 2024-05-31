@@ -496,6 +496,7 @@
     width: 1440px;
     height: 400px;
     background-color: rgb(33, 37, 41);
+    padding-left: 70px;
 }
 .footer-bottom {
     display: flex;
@@ -527,10 +528,8 @@
 .footer-top-content {
     display: flex;
     justify-content: space-between;
-    position: absolute;
     width: 1162px;
     height: 188px;
-    left: 28%;
     font-family: lora-variable;
     color: rgb(255, 255, 255);
 }
@@ -544,11 +543,21 @@
     width: 101px;
     height: 188px;
 }
+.footer-third-column {
+    display: grid;
+    width: 114px;
+    height: 100px;
+}
+.footer-fourth-column {
+    display: grid;
+    width: 172px;
+    height: 60px;
+}
 .social-icons-footer {
     display: flex;
-    width: 206px;
+    width: 172px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 20px;
     list-style-type: none;
 }
