@@ -261,13 +261,21 @@
     font-family: lora-variable;
     font-size: 12px;
     color: rgb(73, 80, 87);
-    
+}
+.regular-menu a:hover {
+    color: rgb(212, 163, 115);
 }
 .view-all-menu a {
     font-family: lora-variable;
     font-size: 12px;
     color:rgb(73, 80, 87);
 }
+.view-all-menu a:hover {
+    color: rgb(212, 163, 115);
+}
+
+
+
 
 
 
